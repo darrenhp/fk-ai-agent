@@ -69,6 +69,7 @@ const sidebar = [
     text: '附录',
     collapsed: false,
     items: [
+      { text: '面试题库', link: '/interview' },
       { text: '术语表', link: '/glossary' },
       { text: '架构决策矩阵', link: '/decision-matrix' },
     ],
@@ -102,6 +103,7 @@ export default withMermaid(
         },
         { text: '术语表', link: '/glossary' },
         { text: '决策矩阵', link: '/decision-matrix' },
+        { text: '面试题库', link: '/interview' },
         { text: 'GitHub', link: 'https://github.com/darrenhp/fk-ai-agent', target: '_blank' },
       ],
       sidebar,
